@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.user1.todo.CompletedTasks">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/listViewCompletedTasks"
+        android:layout_width="fill_parent"
+        android:layout_margin="3dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+    </ListView>
+    <LinearLayout
+        android:id="@+id/iconViewCompletedTasks"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <ImageView
+        android:id="@+id/imageViewDeleteCompletedTasks"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:visibility="gone"/>
+
+    </LinearLayout>
+</RelativeLayout>

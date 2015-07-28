@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Todo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="plus_title">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="mark_complete">Mark as Complete</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="entertask">Enter task description</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
